@@ -24,6 +24,7 @@ requirements:
   build:
     - make
     - {{ compiler('c') }}
+    - {{ stdlib('c') }} 
   host:
     - perl
     - perl-extutils-makemaker
@@ -46,3 +47,4 @@ about:
 extra:
   recipe-maintainers:
     - cbrueffer
+    - dslarm
